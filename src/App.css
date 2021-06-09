@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap&Patrick+Hand+SC&display=swap');
+
+.card {
+  margin-left: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+  padding: 15px 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  height: 88px;
+  width: 188px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#link {
+  font-size: 1.5em;
+  letter-spacing: 0.1rem;
+  font-family: 'Patrick Hand SC', cursive;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+#link:hover {
+  color: #FFC300;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg {
+  background-image: url('./assets/88.jpg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  height: 80vh;
+}
+
+.bg h1 {
+  font-family: 'Anton', sans-serif;
+  color: #01afc3;
+}
+
+.title {
+  font-size: 4em;
+  padding: 2em 1.5em;
+  letter-spacing: 1rem;
+}
+
+.discover {
+  text-transform: capitalize;
+  letter-spacing: 0.2rem;
+  text-decoration: none !important;
+  color: #fff !important;
 }
